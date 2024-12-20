@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/022/514/324/non_2x/white-gradient-abstract-curve-pattern-free-photo.jpeg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300%;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: .5rem;
+    text-align: center;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    height: 100px;
+    margin-bottom: 300px;
+  }
+  
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    padding-top: 110px;
+    flex: 1;
+  }
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; 
+    bottom: 0; 
+    width:100%;
+  }
+
+  .login-div {
+    width: 400px; /* Adjust the width as needed */
+    padding: 20px;
+    background: #ffffff;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logout-button {
+    position: fixed;
+    right: 20px; 
+    top: 50px; 
+    z-index: 1000;
+  }
+
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 3px;
+    text-align: center;
+  }
+
+  .list-group-item {
+    padding: 30px;
+    width: 250px; 
+    display: inline-block; 
+  }
+  
+  #products, #cart {
+    margin-bottom: 20px;
+  }
+  
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #218838;
+  }
+  
+  #cart ul {
+    list-style: none;
+    padding: 0;
+  }
